@@ -1,3 +1,5 @@
+import requests
+
 
 url_host = "https://dog.ceo"
 endpoint = "/api/breeds/list/all"
