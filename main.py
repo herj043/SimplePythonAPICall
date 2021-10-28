@@ -1,1 +1,9 @@
-print ("Replit Personal Access Token Code (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)")
+
+url_host = "https://dog.ceo"
+endpoint = "/api/breeds/list/all"
+query = ""
+
+url = url_host + endpoint # + query
+
+response = requests.get(url)
+print(response.json())
